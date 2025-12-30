@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: puffing-grader-backend
+    name: puffinggrader1-api
     env: node
     buildCommand: npm install
     startCommand: npm start
@@ -8,4 +8,5 @@ services:
       - key: NODE_ENV
         value: production
       - key: PORT
+
         value: 10000
