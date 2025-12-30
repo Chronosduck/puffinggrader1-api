@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Uploads (ephemeral)
+uploads/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+puffing/__pycache__/
+puffing/src/__pycache__/
+
+# Firebase credentials (NEVER COMMIT THIS!)
+serviceAccountKey.json
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+tests/
+test_*.pf
