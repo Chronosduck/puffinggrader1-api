@@ -1,0 +1,26 @@
+{
+  "name": "puffing-grader-system",
+  "version": "1.0.0",
+  "description": "Grading system for Puffing programming language submissions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "grader",
+    "puffing",
+    "submissions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "firebase-admin": "^12.7.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
