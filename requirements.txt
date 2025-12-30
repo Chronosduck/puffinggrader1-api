@@ -1,1 +1,2 @@
-
+# Python dependencies for Puffing Grader
+# Currently using only Python standard library
